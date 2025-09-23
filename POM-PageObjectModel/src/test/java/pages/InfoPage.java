@@ -24,7 +24,7 @@ public class InfoPage extends BaseClass {
 	public void EnterDetails() {
 		firstname.fill("Venkat");
 		lastname.fill("Raghavan");
-		zipcode.fill("600048");
+		zipcode.fill("600032");
 	}
 
 	public void ClickContinue() {
