@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="14.386" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-09-24T17:29:38.949919800Z">
+<testcase classname="Login Functionality of Swag Labs" name="TC001_Login with valid credentials" time="8.732">
+<system-out><![CDATA[
+Given load the application URL..............................................passed
+When enter the valid username "standard_user"...............................passed
+And enter the valid password "secret_sauce".................................passed
+And Click on login button...................................................passed
+Then Page navigated to Homepage and verify title............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionality of Swag Labs" name="TC002_Login with Invalid credentials - #1.1" time="2.646">
+<system-out><![CDATA[
+Given load the application URL..............................................passed
+When enter the valid username "locked_out_user".............................passed
+And enter the valid password "secret_sauce".................................passed
+And Click on login button...................................................passed
+But Error Message will be displayed.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionality of Swag Labs" name="TC002_Login with Invalid credentials - #1.2" time="2.633">
+<system-out><![CDATA[
+Given load the application URL..............................................passed
+When enter the valid username "problem_use".................................passed
+And enter the valid password "secret_sauce".................................passed
+And Click on login button...................................................passed
+But Error Message will be displayed.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

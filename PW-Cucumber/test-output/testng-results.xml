@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-24T22:59:38 IST" name="Default suite" finished-at="2025-09-24T22:59:56 IST" duration-ms="18642">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.LoginRunner@6743e411]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-09-24T22:59:38 IST" name="Default test" finished-at="2025-09-24T22:59:56 IST" duration-ms="18642">
+      <class name="runner.LoginRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.LoginRunner@6743e411]" started-at="2025-09-24T22:59:38 IST" name="setUpClass" finished-at="2025-09-24T22:59:39 IST" duration-ms="762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@255eaa6b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.LoginRunner@6743e411]" started-at="2025-09-24T22:59:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-24T22:59:48 IST" duration-ms="8860" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC001_Login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality of Swag Labs"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.LoginRunner@6743e411]" started-at="2025-09-24T22:59:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-24T22:59:50 IST" duration-ms="2650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC002_Login with Invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality of Swag Labs"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.LoginRunner@6743e411]" started-at="2025-09-24T22:59:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-24T22:59:53 IST" duration-ms="2638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC002_Login with Invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality of Swag Labs"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.LoginRunner@6743e411]" started-at="2025-09-24T22:59:53 IST" name="tearDownClass" finished-at="2025-09-24T22:59:56 IST" duration-ms="3647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.LoginRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
